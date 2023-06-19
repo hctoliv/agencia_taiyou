@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: linear-gradient(to left, #f7e300, #f66527e0, #ff6a20);
+  background: linear-gradient(to bottom,#f66527e0,#ff6a20, #f7e300 );
   color: white;
   opacity: 0;
   animation: fade-in 1.2s ease-in forwards;
@@ -82,7 +82,7 @@ nav > i:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  height: 110vh;
 }
 
 .texts-saibamais  h2, p{
@@ -102,7 +102,7 @@ font-size: 2rem;
   background-color: rgba(0, 0, 0, 0.507);
   padding: 2rem;
   border-radius: 8px;
-  margin: 0px 1.8rem;
+  width: 40%;
   -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
