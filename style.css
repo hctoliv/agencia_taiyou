@@ -30,7 +30,8 @@ header h1 {
   font-weight: 400;
 }
 main > h1 {
-  font-size: 1.8em;
+  text-align: center;
+  font-size: 1.6em;
   font-weight: 700;
 }
 main {
@@ -92,4 +93,25 @@ font-size: 2rem;
 .texts-saibamais p {
   margin-top: -20px;
   font-size: 1.9rem;
+}
+
+.nav-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 0px 1.8rem;
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+}
+span {
+  color: #ff1515;
+  text-decoration: underline;
+}
+
+#span-li {
+  color: #ff9c9cee;
 }
