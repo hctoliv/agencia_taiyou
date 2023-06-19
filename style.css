@@ -59,9 +59,9 @@ nav > i:hover {
   padding: 0.7em;
   border-radius: 8px;
   margin-top: 1em;
-  -webkit-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
 }
 .button > a {
   text-decoration: none;
@@ -74,4 +74,28 @@ box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
 .button:hover {
   background: linear-gradient(to right, #f5b000, #c17410);
   transition: 0.3s ease;
+}
+/*.forms {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 140vh;
+}
+*/
+
+#saiba-mais {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.texts-saibamais  h2, p{
+text-align: center;
+font-size: 2rem;
+}
+
+.texts-saibamais p {
+  margin-top: -20px;
+  font-size: 1.9rem;
 }
