@@ -1,0 +1,77 @@
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to left, #f7e300, #f66527e0, #ff6a20);
+  color: white;
+  opacity: 0;
+  animation: fade-in 1.2s ease-in forwards;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 3em;
+  border-bottom: 1px solid #00000058;
+}
+header h1 {
+  font-weight: 400;
+}
+main > h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  text-align: center;
+  margin: 0px 2%;
+}
+nav > i {
+  font-size: 1.9rem;
+}
+
+nav > i:hover {
+  cursor: pointer;
+}
+
+.text-second {
+  color: blueviolet;
+}
+
+.button {
+  background: linear-gradient(to left, #fd7333, #838282);
+  padding: 0.7em;
+  border-radius: 8px;
+  margin-top: 1em;
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
+}
+.button > a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #ffffff;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: linear-gradient(to right, #f5b000, #c17410);
+  transition: 0.3s ease;
+}
